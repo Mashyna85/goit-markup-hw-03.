@@ -24,6 +24,8 @@ ul{
   text-decoration: none;
 }
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo {
 }
@@ -114,7 +116,7 @@ color: #2E2F42;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
+  padding-top: ;
 .first-sec-button {
   font-weight: 500;
   font-size: 16px;
