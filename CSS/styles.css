@@ -2,38 +2,62 @@ body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
-p,h1,h2,h3,h4,h5,h6{
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
-ul{
+
+ul {
   margin: 0;
   padding-left: 0;
 }
+
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 1px solid red;
   margin: 0 auto;
-  
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.header-navigation {
+
+.header>.container {
+  display: flex;
+  align-items: center;
 }
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 .logo {
   display: flex;
+  margin-right: 76px;
+  margin-left: 156px;
 }
-.link {
-}
+
+.link {}
+
 .first-part-logo-link {
   font-family: "Raleway";
   font-style: normal;
@@ -45,6 +69,7 @@ ul{
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .second-part-logo-link {
   font-family: "Raleway";
   font-style: normal;
@@ -56,30 +81,39 @@ ul{
   text-transform: uppercase;
   color: #2e2f42;
 }
-.header-navigation {
-  display: flex;
-}
+
+.header-navigation {}
+
 .header-list {
   display: flex;
 }
+
 .header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 40px;
 }
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
 .header-link {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
+
 .header-list-contact {
   font-weight: 400;
   font-size: 16px;
@@ -88,6 +122,7 @@ color: #2E2F42;
   color: #434455;
   display: flex;
 }
+
 .header-list-contact:hover,
 .header-list-contact {
   color: #404bbf;
@@ -99,6 +134,7 @@ color: #2E2F42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-right: 40px;
 }
 
 .header-contact {
@@ -107,15 +143,26 @@ color: #2E2F42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
 }
+
 .header-contact:hover,
 .header-contact:focus {
   color: #404bbf;
 }
+
 .first-sec {
+  background-color: #2e2f42;
+  width: 1150px;
+  height: 600px;
+  top: 72px;
 }
+
 .first-sec-text {
+  position: absolute;
+  width: 494px;
+  height: 120px;
+  left: 473px;
+  top: 260px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -125,6 +172,24 @@ color: #2E2F42;
 }
 
 .first-sec-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.first-sec-button-text {
+  width: 105px;
+  height: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
@@ -133,13 +198,22 @@ color: #2E2F42;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
 }
+
 .first-sec-button:hover,
 .first-sec-butto:focus {
   color: #404bbf;
 }
-.services-list {
+
+.section-our-services {}
+
+.services-list {}
+
+.services-box {
+  display: flex;
 }
+
 .services-list-item {
   font-weight: 400;
   font-size: 16px;
@@ -147,6 +221,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .services-title {
   font-weight: 500;
   font-size: 20px;
@@ -154,6 +229,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .services-paragraf {
   font-weight: 400;
   font-size: 16px;
@@ -161,6 +237,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .title-section-doing {
   font-weight: 700;
   font-size: 36px;
@@ -170,16 +247,19 @@ color: #2E2F42;
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .doing-list {
+  display: flex;
 }
-.duing-img-computer {
-}
-.duing-img-iphone {
-}
-.duing-img-hand {
-}
-.section-team {
-}
+
+.duing-img-computer {}
+
+.duing-img-iphone {}
+
+.duing-img-hand {}
+
+.section-team {}
+
 .title-section-team {
   font-weight: 700;
   font-size: 36px;
@@ -189,12 +269,17 @@ color: #2E2F42;
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .team-list {
+  display: flex;
+  gap: 24px;
+  background-color: #f4f4fd;
 }
-.team-member {
-}
-.photo-member {
-}
+
+.team-member {}
+
+.photo-member {}
+
 .team-tile {
   font-weight: 500;
   font-size: 20px;
@@ -203,6 +288,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team-pozition {
   font-weight: 400;
   font-size: 16px;
@@ -211,34 +297,38 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.footer {
+  background-color: #2E2F42;
+}
 .footer-logo {
+  display: flex;
+  margin-right: 156px;
 }
-.link {
-}
+
+.link {}
+
 .footer-first-part-logo-link {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-second-part-logo-link {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -246,11 +336,16 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+
 /* портфоліо */
+
 .button-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.button-list-item {
-}
+
+.button-list-item {}
 
 .item-button {
   font-family: "Roboto";
@@ -265,16 +360,36 @@ color: #2E2F42;
   color: #4d5ae5;
   cursor: pointer;
 }
+
 .item-button:hover,
 .item-button:focus {
   color: #ffffff;
 }
-.section-img-portfolio {
+
+.section-img-portfolio {}
+
+.portfolio-one {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.portfolio-list {
+
+.portfolio-two {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.portfolio-list-item {
+
+.portfolio-tre {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -282,6 +397,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-list-text {
   font-weight: 400;
   font-size: 16px;
