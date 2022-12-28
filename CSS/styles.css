@@ -37,6 +37,7 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 4px black
 }
 
 .header>.container {
@@ -161,14 +162,12 @@ ul {
 
 .first-sec>.container {
   width: 1158px;
-  height: 600px;
   left: 0px;
   top: 72px;
 }
 
 .first-sec-text {
   margin: 0 auto;
-  margin-bottom: 188px;
   width: 494px;
   left: 473px;
   top: 260px;
@@ -179,6 +178,7 @@ ul {
   line-height: 60px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 48px;
 }
 
 .first-sec-button {
@@ -211,7 +211,6 @@ ul {
 /* Інформація про переваги */
 
 .section-our-services {
-  padding-bottom: 120px;
   padding-top: 120px;
   gap: 24px;
 }
@@ -309,8 +308,8 @@ ul {
 }
 
 .teem-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
 }
 
@@ -387,7 +386,7 @@ ul {
 
 /* портфоліо */
 
-.section-portfolio{
+.section-portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -396,13 +395,14 @@ ul {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-top: 12px;
   padding-bottom: 12;
-  margin-bottom: 24px;
+  margin-bottom: 72px;
   justify-content: center
 }
 
-.button-list-item {}
+.button-list-item {
+  padding: 12px, 24px, 12px, 24px;
+}
 
 .item-button {
   font-family: "Roboto";
@@ -416,8 +416,6 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-  padding: 12px, 24px, 12px, 24px;
-  margin-bottom: 72px;
 }
 
 .item-button:hover,
@@ -427,7 +425,7 @@ ul {
 
 .section-img-portfolio {}
 
-.portfolio-list-item{
+.portfolio-list-item {
   margin-bottom: 48px;
 }
 
@@ -439,7 +437,10 @@ ul {
 
 .portfolio-list-small-box {
   border: 1px solid #E7E9FC;
-  padding: 10, 10, 10, 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .portfolio-two {
