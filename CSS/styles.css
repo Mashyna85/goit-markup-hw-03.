@@ -401,7 +401,6 @@ ul {
 }
 
 .button-list-item {
-  padding: 12px, 24px, 12px, 24px;
 }
 
 .item-button {
@@ -416,6 +415,10 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .item-button:hover,
