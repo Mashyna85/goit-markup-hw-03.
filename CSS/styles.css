@@ -155,6 +155,8 @@ ul {
 .first-sec {
   padding-bottom: 120px;
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .first-sec>.container {
@@ -165,9 +167,9 @@ ul {
 }
 
 .first-sec-text {
-  position: absolute;
+  margin: 0 auto;
+  margin-bottom: 188px;
   width: 494px;
-  height: 120px;
   left: 473px;
   top: 260px;
   font-family: 'Roboto';
@@ -180,13 +182,11 @@ ul {
 }
 
 .first-sec-button {
-  display: flex;
+  display: block;
+  margin: 0 auto;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
   height: 56px;
   left: 636px;
   top: 428px;
@@ -197,9 +197,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
 }
@@ -214,6 +212,7 @@ ul {
 
 .section-our-services {
   padding-bottom: 120px;
+  padding-top: 120px;
   gap: 24px;
 }
 
@@ -265,6 +264,7 @@ ul {
 
 .section-doing {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .title-section-doing {
@@ -278,6 +278,7 @@ ul {
 .duing-img-hand {}
 
 .section-team {
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
 }
@@ -306,11 +307,13 @@ ul {
 .photo-member {
   margin-bottom: 32px;
 }
-.teem-text{
+
+.teem-text {
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
+
 .team-tile {
   font-weight: 500;
   font-size: 20px;
@@ -339,16 +342,18 @@ ul {
 .footer-logo {
   display: flex;
   margin-right: 156px;
+  margin-bottom: 16px;
 }
 
 .footer-text {
-  position: absolute;
   width: 264px;
   left: 156px;
   margin-left: 0;
 }
 
 .link {}
+
+
 
 .footer-first-part-logo-link {
   font-family: "Raleway";
@@ -382,6 +387,11 @@ ul {
 
 /* портфоліо */
 
+.section-portfolio{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .button-list {
   display: flex;
   align-items: center;
@@ -406,6 +416,8 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  padding: 12px, 24px, 12px, 24px;
+  margin-bottom: 72px;
 }
 
 .item-button:hover,
@@ -415,14 +427,19 @@ ul {
 
 .section-img-portfolio {}
 
+.portfolio-list-item{
+  margin-bottom: 48px;
+}
+
 .portfolio-one {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+
 .portfolio-list-small-box {
   border: 1px solid #E7E9FC;
-  padding: 10,10,10,10;
+  padding: 10, 10, 10, 10;
 }
 
 .portfolio-two {
