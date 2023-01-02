@@ -215,15 +215,14 @@ ul {
   gap: 24px;
 }
 
-.services-list {}
-
-.services-box {
+.services-list {
   display: flex;
 }
 
 .services-list-item {
   width: 264px;
   color: #2e2f42;
+  padding-right: 24px;
 }
 
 .services-title {
