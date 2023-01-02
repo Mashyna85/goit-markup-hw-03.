@@ -222,11 +222,8 @@ ul {
 }
 
 .services-list-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  width: 264px;
+  color: #2e2f42;
 }
 
 .services-title {
@@ -400,8 +397,7 @@ ul {
   justify-content: center
 }
 
-.button-list-item {
-}
+.button-list-item {}
 
 .item-button {
   font-family: "Roboto";
